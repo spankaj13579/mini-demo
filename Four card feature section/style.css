@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* portion 1 */
+
+.text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0;
+}
+.text h1{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.text h1:first-child{
+    font-weight: 300;
+    margin-bottom: 16px;
+    display: block;
+}
+.text h1:nth-child(2){
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(54, 54, 54);
+}
+.text p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+/* grid(cards) */
+.cards .grid div h2{
+    padding: 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    color: rgb(54, 54, 54);
+}
+.cards .grid div p{
+    font-size: 14px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+.cards .grid div .fas{
+    float: right;
+    padding-right: 10px;
+}
+.cards .grid div{
+    padding: 26px 28px;
+    box-shadow: 0 10px 16px rgba(0,0,0,0.4);
+}
+
+.cards .grid div:first-child{
+    border-top: 3px solid #a2f2f3;
+}
+.cards .grid div:first-child i{
+    color: #009c94;
+}
+.cards .grid div:nth-child(2){
+    border-top: 3px solid #a33637;
+}
+.cards .grid div:nth-child(2) i{
+    color: #a33637;
+}
+.cards .grid div:nth-child(3){
+    border-top: 3px solid #a9dcff;
+}
+.cards .grid div:nth-child(3) i{
+    color: #1f54ff;
+}
+.cards .grid div:last-child{
+    border-top: 3px solid #e9a842;
+}
+.cards .grid div:last-child i{
+    color: #ec9304;
+}
+.cards .grid{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 14px;
+    
+}
+
+/* grid arrangement */
+/* .cards .grid div:first-child{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.cards .grid div:nth-child(2){
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.cards .grid div:nth-child(3){
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.cards .grid div:last-child{
+    grid-row: 3/4;
+    grid-column: 2/3;
+} */
+
+@media(max-width: 920px){
+    .cards .grid{
+    text-align: center;
+    display: block;
+    width: 100%;
+    }
+    .cards .grid div{
+        padding: 40px 40px;
+        margin: 42px;
+        box-shadow: 0 10px 16px rgba(0,0,0,0.4);
+    }
+    .cards .grid div p{
+        margin-bottom: 40px;
+    }
+    .cards .grid div .fas{
+        display: none;
+}
+       
+}
