@@ -1,0 +1,253 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(146, 146, 146);
+    font-size: 15px;
+    
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+/*BRANDING*/
+.branding img{
+    width: 116px;
+    margin-top: -20px; 
+    padding-left: 30px;
+    /* position: relative; */
+}
+.branding p{
+    font-size: 15px;
+    
+    /* position: absolute; */
+    margin-top: -40px;
+    padding-left: 30px;
+    color: #000;
+}
+#search{
+    background-image: url("images/search.png");
+    font-size: 14px;
+    padding: 10px;
+    width: 560px;
+    padding-left: 55px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 12px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    display: inline-block;
+    padding-right: 12px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.branding{
+    float: left;
+}
+.nav1{
+    float: left;
+    padding-left: 30px;;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+li{
+    display: inline;
+    padding-right: 26px;
+    
+}
+.dot{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit{
+    padding: 6px 10px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 4px;
+}
+.submit:hover{
+    border: 1px solid #000;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+.join-free{
+    padding: 6px 12px;
+    background-color: #3cb46e;
+    color: #fff;
+    border-radius: 4px;
+}
+.join-free:hover{
+    background-color: #289756;
+    color: #fff;
+}
+a:hover{
+    color: #000;
+}
+
+
+
+/*MAIN NAV*/
+
+.main-nav{
+    padding-top: 70px;
+    padding-left: 10px;
+    text-align: center; 
+}
+.main-nav ul li a{
+    padding-bottom: 14px;
+}
+.main-nav .active{
+    position: relative;
+    border-bottom: 2px solid #000;
+}
+
+/*SHOWCASE*/
+
+.showcase{
+    background: url("images/landing image.jpg");
+    background-color: #eee;
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #fff;
+    line-height: 1.2rem;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8rem;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.showcase h1{
+    font-size: 46px;    
+    font-weight: bold;
+    padding-top: 18px;
+    letter-spacing: 6px;
+}
+.showcase p{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1.6rem;
+    padding-bottom: 16px;
+    letter-spacing: 0.2px;
+}
+.big-search{
+    background-image: url("images/search.png");
+    font-size: 18px;
+    padding: 10px;
+    width: 800px;
+    padding-left: 100px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 20px;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding-top:16px;
+    padding-bottom: 16px;
+    
+}
+/*primary search focus*/
+#search:focus{
+    background-color: transparent;
+}
+
+/*RANDOM IMAGES*/
+
+
+
+
+
+
+/*IMAGE GALLERY*/
+#images{
+    margin-top: 50px;
+    box-shadow: 35px 0px 40px rgba(0, 0, 0, 0.1),-35px 0px 40px rgba(0, 0, 0, 0.1);
+}
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .containimg{
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/*FOOTER*/
+footer{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 0;
+}
+footer h1, footer h3, footer p{
+    padding: 5px 0;
+}
