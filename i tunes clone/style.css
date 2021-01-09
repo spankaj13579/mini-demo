@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #1d1d1f;
+    overflow-x: hidden;
+}
+
+/*GLOBAL*/
+.container{
+    width:70%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+ul{
+    list-style-type: none;
+}
+/*NAV*/
+
+
+.navbar{
+    background-color: #333333;
+    color: #c5c5c5;
+
+}
+.navbar ul{
+    font-size: 13px;
+    width: 86%;
+    margin: auto;
+    text-align: center;
+}
+.navbar ul li{
+    display: inline-block;
+    padding:14px 3%;
+}
+.navbar ul li a{
+    text-align: center;
+    color: #c5c5c5;
+}
+
+/*LANDING*/
+
+.landing{
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 10px;
+}
+.landing img{
+    width: 120px;
+}
+
+.landing p{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.main-text h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-text p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8rem;
+    color: rgb(65, 65, 65);;
+}
+.small{
+    padding-top: 42px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.images{
+    text-align: center;
+}
+#windows{
+    width: 200px;
+    margin: auto;
+    display: block;
+    padding-bottom: 75px;
+}
+#computer{
+    width: 95%;
+    margin: auto;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.inline table{
+    margin: auto;
+}
+.inline table a{
+    color: #1472d0;
+    font-size: 16px;
+}
+.version{
+    margin-top: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.version p span a{
+    padding-left: 10px;
+    color: #1472d0;
+}
+.grey{
+    background-color: #fbfbfd;
+    padding-top: 120px;
+}
+.grid{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.grid h1{
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+.grid p{
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+.grid a{
+    color: #1472d0;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #f5f5f7;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #3d3d3d;
+}
+footer a{
+    color: #3d3d3d;
+}
+
+.upper li{
+    padding-bottom: 8px;
+    color: rgb(133, 133, 133);
+}
+.upper{
+    padding-bottom: 14px;
+}
+.link{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 14px;
+}
+.link li{
+    display: inline;
+    padding-right: 14px;
+}
+.link li i{
+    color: #333;
+}
+.big-footer p{
+    font-weight: 600;
+    color: #333;
+}
+.big-footer{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 36px;
+}
+.big-footer li{
+    padding-top: 12px;
+}
+
+.copyright{
+    padding-top: 6px;
+    padding-bottom: 26px;
+}
+
+.link a{
+    color: #1472d0;
+}
+/*HOVER*/
+.navbar li:hover{
+    color: #fff;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.version a:hover, .inline a:hover, .grid a:hover, .link .hover:hover, .big-footer a:hover{
+    text-decoration: underline;
+}
+.link .fa:hover{
+    color: #c5c5c5;
+}
+a:hover{
+    transition: 0.22s ease-in-out;
+}
